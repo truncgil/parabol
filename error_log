@@ -1,0 +1,6 @@
+[31-Dec-2021 01:00:02 UTC] PHP Fatal error:  Uncaught Illuminate\Routing\Exceptions\UrlGenerationException: Missing required parameter for [Route: items.index] [URI: {company_id}/common/items] [Missing parameter: company_id]. in /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/framework/src/Illuminate/Routing/Exceptions/UrlGenerationException.php:35
+Stack trace:
+#0 /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/framework/src/Illuminate/Routing/RouteUrlGenerator.php(91): Illuminate\Routing\Exceptions\UrlGenerationException::forMissingParameters(Object(Illuminate\Routing\Route), Array)
+#1 /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(466): Illuminate\Routing\RouteUrlGenerator->to(Object(Illuminate\Routing\Route), Array, true)
+#2 /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(441): Illuminate\Routing\UrlGenerator->toRoute(Object(Illuminate\Routing\Route), Array, true)
+#3 /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/fr in /home/pgutrunc/app.parabol.truncgil.com/vendor/laravel/framework/src/Illuminate/Routing/Exceptions/UrlGenerationException.php on line 35

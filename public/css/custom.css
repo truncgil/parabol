@@ -1,0 +1,19 @@
+
+
+.phpdebugbar{
+    display: none !important;
+}
+.navbar-vertical.navbar-expand-xs {
+    position: fixed;
+    top: 0;
+    bottom: 60px;
+    left: -100%;
+    display: block;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 62px;
+    padding-right: 0;
+    padding-left: 0;
+    z-index: 999999;
+    /* padding-bottom: 10000px; */
+}

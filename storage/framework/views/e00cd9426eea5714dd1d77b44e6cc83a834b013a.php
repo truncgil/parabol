@@ -1,0 +1,1 @@
+<?php echo $__env->make($id, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/pgutrunc/app.parabol.truncgil.com/resources/views/default.blade.php ENDPATH**/ ?>
