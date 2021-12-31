@@ -27,7 +27,7 @@ Parabol uses [Laravel](http://laravel.com), the best existing PHP framework, as 
 ## Installation
 
 * Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
-* Clone the repository: `git clone https://github.com/parabol/parabol.git`
+* Clone the repository: `git clone https://github.com/truncgil/parabol.git`
 * Install dependencies: `composer install ; npm install ; npm run dev`
 * Install Parabol:
 
