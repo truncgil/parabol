@@ -1,40 +1,38 @@
-﻿# Akaunting™
+<p align="center"><a href="https://parabol.truncgil.com" target="_blank"><img src="https://app.parabol.truncgil.com/public/img/parabol.svg" width="400"></a></p>
 
-[![Release](https://img.shields.io/github/v/release/akaunting/akaunting?label=release)](https://github.com/akaunting/akaunting/releases)
-![Downloads](https://img.shields.io/github/downloads/akaunting/akaunting/total?label=downloads)
-[![Translations](https://badges.crowdin.net/akaunting/localized.svg)](https://crowdin.com/project/akaunting)
-[![Tests](https://img.shields.io/github/workflow/status/akaunting/akaunting/Tests?label=tests)](https://github.com/akaunting/akaunting/actions)
-[![License](https://img.shields.io/github/license/akaunting/akaunting?label=license)](LICENSE.txt)
+<p align="center">
+  <a href="https://editor.truncgil.com">Online Demo</a>
+</p>
 
-Akaunting is a free, open source and online accounting software designed for small businesses and freelancers. It is built with modern technologies such as Laravel, VueJS, Bootstrap 4, RESTful API etc. Thanks to its modular structure, Akaunting provides an awesome App Store for users and developers.
 
-* [Home](https://akaunting.com) - The house of Akaunting
-* [Forum](https://akaunting.com/forum) - Ask for support
-* [Documentation](https://akaunting.com/docs) - Learn how to use
-* [Developer Portal](https://developer.akaunting.com) - Generate passive income
-* [App Store](https://akaunting.com/apps) - Extend your Akaunting
-* [Translations](https://crowdin.com/project/akaunting) - Help us translate Akaunting
+Parabol is a free, open source and online accounting software designed for small businesses and freelancers. It is built with modern technologies such as Laravel, VueJS, Bootstrap 4, RESTful API etc. Thanks to its modular structure, Parabol provides an awesome App Store for users and developers.
+
+* [Home](https://parabol.truncgil.com) - The house of Parabol
+* [Forum](https://parabol.truncgil.com/forum) - Ask for support
+* [Documentation](https://parabol.truncgil.com/docs) - Learn how to use
+* [Developer Portal](https://developer.parabol.com) - Generate passive income
+* [App Store](https://parabol.truncgil.com/apps) - Extend your Parabol
+* [Translations](https://crowdin.com/project/parabol) - Help us translate Parabol
 
 ## Requirements
 
 * PHP 7.3 or higher
 * Database (eg: MySQL, PostgreSQL, SQLite)
 * Web Server (eg: Apache, Nginx, IIS)
-* [Other libraries](https://akaunting.com/docs/requirements)
 
 ## Framework
 
-Akaunting uses [Laravel](http://laravel.com), the best existing PHP framework, as the foundation framework and [Module](https://github.com/akaunting/module) package for Apps.
+Parabol uses [Laravel](http://laravel.com), the best existing PHP framework, as the foundation framework and
 
 ## Installation
 
 * Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
-* Clone the repository: `git clone https://github.com/akaunting/akaunting.git`
+* Clone the repository: `git clone https://github.com/parabol/parabol.git`
 * Install dependencies: `composer install ; npm install ; npm run dev`
-* Install Akaunting:
+* Install Parabol:
 
 ```bash
-php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
+php artisan install --db-name="parabol" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
 ```
 
 * Create sample data (optional): `php artisan sample-data:seed`
@@ -43,13 +41,13 @@ php artisan install --db-name="akaunting" --db-username="root" --db-password="pa
 
 Please, be very clear on your commit messages and pull requests, empty pull request messages may be rejected without reason.
 
-When contributing code to Akaunting, you must follow the PSR coding standards. The golden rule is: Imitate the existing Akaunting code.
+When contributing code to Parabol, you must follow the PSR coding standards. The golden rule is: Imitate the existing Parabol code.
 
-Please note that this project is released with a [Contributor Code of Conduct](https://akaunting.com/conduct). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://parabol.truncgil.com/conduct). By participating in this project you agree to abide by its terms.
 
 ## Translation
 
-If you'd like to contribute translations, please check out our [Crowdin](https://crowdin.com/project/akaunting) project.
+If you'd like to contribute translations, please check out our [Crowdin](https://crowdin.com/project/parabol) project.
 
 ## Changelog
 
@@ -57,7 +55,7 @@ Please see [Releases](../../releases) for more information what has changed rece
 
 ## Security
 
-If you discover any security related issues, please email security@akaunting.com instead of using the issue tracker.
+If you discover any security related issues, please email security@parabol.com instead of using the issue tracker.
 
 ## Credits
 
@@ -67,14 +65,14 @@ If you discover any security related issues, please email security@akaunting.com
 
 ## Partners
 
-Each of our partners can help you craft a beautiful, well-architected project. Feel free to get in [contact](https://akaunting.com/contact) with us to become a partner.
+Each of our partners can help you craft a beautiful, well-architected project. Feel free to get in [contact](https://parabol.truncgil.com/contact) with us to become a partner.
 
-* [Creative Tim](https://www.creative-tim.com) is our design partner since Akaunting 2.0 version. They create beautiful UI Kits, Templates, and Dashboards built on top of Bootstrap, Vue.js, React, Angular, Node.js, and Laravel.
+* [Creative Tim](https://www.creative-tim.com) is our design partner since Parabol 2.0 version. They create beautiful UI Kits, Templates, and Dashboards built on top of Bootstrap, Vue.js, React, Angular, Node.js, and Laravel.
 
 ## Sponsors
 
-Support Akaunting by becoming a sponsor on [Patreon](https://www.patreon.com/akaunting). Your logo will show up here with a link to your website.
+Support Parabol by becoming a sponsor on [Patreon](https://www.patreon.com/parabol). Your logo will show up here with a link to your website.
 
 ## License
 
-Akaunting is released under the [GPLv3 license](LICENSE.txt).
+Parabol is released under the [GPLv3 license](LICENSE.txt).
