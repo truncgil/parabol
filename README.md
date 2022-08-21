@@ -59,6 +59,7 @@ If you discover any security related issues, please email security@parabol.com i
 
 ## Credits
 
+* [Trunçgil Teknoloji (Ümit Tunç)](https://github.com/truncgil)
 * [Denis Duliçi](https://github.com/denisdulici)
 * [Cüneyt Şentürk](https://github.com/cuneytsenturk)
 * [All Contributors](../../contributors)
